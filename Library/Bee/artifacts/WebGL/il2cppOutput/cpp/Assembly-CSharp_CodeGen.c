@@ -42,9 +42,14 @@ extern void MenuScript_StartEasyDifficulty_m5160DCFAD595CAED2D1A0621513311F0A308
 extern void MenuScript_StartMediumDifficulty_mB09BE05910F882AFBB88B58C5D795DF4D9848FC5 (void);
 extern void MenuScript_StartHardDifficulty_m243613C9B4EE9B29185A4C95ADEDEE077810FBCD (void);
 extern void MenuScript__ctor_mCDAA51C5C929C62E7082872DA581F913C3E66EDC (void);
+extern void PauseScript_Start_m50A0073507920BDAAA9B4D8350BAFF83079270C3 (void);
+extern void PauseScript_Update_m72F027A663E52E68099BF38BB4068879E54D5702 (void);
+extern void PauseScript_Resume_m422EBD10E91C61D926C5DCDFD00B06B55B8EDB57 (void);
+extern void PauseScript_MainMenu_m7F36D7F848553061D017EE950CC1E20AFD445CA2 (void);
+extern void PauseScript__ctor_m23A7FFFD40A00BAD146929BB093AE7FC0D001FF3 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[32] = 
+static Il2CppMethodPointer s_methodPointers[37] = 
 {
 	Apple_Update_mD16063C8D81C85A1DFBC5F066048789B54DF206D,
 	Apple__ctor_m470B2E2F0F8BE1503711117A920744A0B5F4DA87,
@@ -76,6 +81,11 @@ static Il2CppMethodPointer s_methodPointers[32] =
 	MenuScript_StartMediumDifficulty_mB09BE05910F882AFBB88B58C5D795DF4D9848FC5,
 	MenuScript_StartHardDifficulty_m243613C9B4EE9B29185A4C95ADEDEE077810FBCD,
 	MenuScript__ctor_mCDAA51C5C929C62E7082872DA581F913C3E66EDC,
+	PauseScript_Start_m50A0073507920BDAAA9B4D8350BAFF83079270C3,
+	PauseScript_Update_m72F027A663E52E68099BF38BB4068879E54D5702,
+	PauseScript_Resume_m422EBD10E91C61D926C5DCDFD00B06B55B8EDB57,
+	PauseScript_MainMenu_m7F36D7F848553061D017EE950CC1E20AFD445CA2,
+	PauseScript__ctor_m23A7FFFD40A00BAD146929BB093AE7FC0D001FF3,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
@@ -86,24 +96,24 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] =
 	{ 0x06000011, U3CStartU3Ed__13_MoveNext_m687A3AD9E27D7D6F3F28D838D72BA820C4973312_AdjustorThunk },
 	{ 0x06000012, U3CStartU3Ed__13_SetStateMachine_mEEE7CE999AE94DE6924A996B903F5D714A69B648_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[32] = 
+static const int32_t s_InvokerIndices[37] = 
 {
 	4429,
 	4429,
-	6369,
+	6370,
 	4429,
 	4429,
 	4429,
-	6369,
-	6369,
-	6369,
+	6370,
+	6370,
+	6370,
 	4429,
 	4429,
 	4429,
 	4429,
 	3566,
 	4429,
-	6369,
+	6370,
 	4429,
 	3566,
 	4429,
@@ -113,19 +123,24 @@ static const int32_t s_InvokerIndices[32] =
 	4429,
 	4429,
 	4429,
-	6369,
+	6370,
 	4429,
 	4429,
 	4429,
 	4429,
-	6373,
+	4429,
+	4429,
+	4429,
+	4429,
+	4429,
+	6374,
 	4429,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	32,
+	37,
 	s_methodPointers,
 	2,
 	s_adjustorThunks,

@@ -293,6 +293,7 @@
 "Assets/Scripts/Basket.cs"
 "Assets/Scripts/HighScore.cs"
 "Assets/Scripts/MenuScript.cs"
+"Assets/Scripts/PauseScript.cs"
 -langversion:9.0
 
 /deterministic

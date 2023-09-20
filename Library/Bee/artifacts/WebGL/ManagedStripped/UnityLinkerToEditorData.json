@@ -212,7 +212,12 @@
           },
           {
             "name": "LightingSettings",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Easy_Scene.unity",
+              "Assets/Scenes/Hard_Scene.unity",
+              "Assets/Scenes/Medium_Scene.unity",
+              "Assets/Scenes/Menu_Scene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -418,6 +423,9 @@
           {
             "name": "Sprite",
             "scenes": [
+              "Assets/Scenes/Easy_Scene.unity",
+              "Assets/Scenes/Hard_Scene.unity",
+              "Assets/Scenes/Medium_Scene.unity",
               "Assets/Scenes/Menu_Scene.unity"
             ],
             "dependencyType": 0,

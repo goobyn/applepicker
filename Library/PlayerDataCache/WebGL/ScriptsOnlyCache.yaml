@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - Basket
     - HighScore
     - MenuScript
+    - PauseScript
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -78,6 +79,24 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: StartEasyDifficulty
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
+    methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
+    methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
+    methodName: Resume
   sceneClasses:
     Assets/Scenes/Easy_Scene.unity:
     - Class: 1
@@ -111,6 +130,8 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1588}
+    - Class: 114
       Script: {instanceID: 2490}
     - Class: 114
       Script: {instanceID: 2586}
@@ -119,17 +140,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2786}
     - Class: 114
-      Script: {instanceID: 5218}
+      Script: {instanceID: 3066}
     - Class: 114
-      Script: {instanceID: 5310}
+      Script: {instanceID: 3296}
     - Class: 114
-      Script: {instanceID: 5516}
+      Script: {instanceID: 4976}
     - Class: 114
-      Script: {instanceID: 5974}
+      Script: {instanceID: 5220}
     - Class: 114
-      Script: {instanceID: 7082}
+      Script: {instanceID: 5312}
     - Class: 114
-      Script: {instanceID: 7330}
+      Script: {instanceID: 5518}
+    - Class: 114
+      Script: {instanceID: 5666}
+    - Class: 114
+      Script: {instanceID: 5976}
+    - Class: 114
+      Script: {instanceID: 7084}
+    - Class: 114
+      Script: {instanceID: 7332}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -142,11 +171,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
       Script: {instanceID: 0}
     Assets/Scenes/Hard_Scene.unity:
     - Class: 1
@@ -180,6 +213,8 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1588}
+    - Class: 114
       Script: {instanceID: 2490}
     - Class: 114
       Script: {instanceID: 2586}
@@ -188,17 +223,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2786}
     - Class: 114
-      Script: {instanceID: 5218}
+      Script: {instanceID: 3066}
     - Class: 114
-      Script: {instanceID: 5310}
+      Script: {instanceID: 3296}
     - Class: 114
-      Script: {instanceID: 5516}
+      Script: {instanceID: 4976}
     - Class: 114
-      Script: {instanceID: 5974}
+      Script: {instanceID: 5220}
     - Class: 114
-      Script: {instanceID: 7082}
+      Script: {instanceID: 5312}
     - Class: 114
-      Script: {instanceID: 7330}
+      Script: {instanceID: 5518}
+    - Class: 114
+      Script: {instanceID: 5666}
+    - Class: 114
+      Script: {instanceID: 5976}
+    - Class: 114
+      Script: {instanceID: 7084}
+    - Class: 114
+      Script: {instanceID: 7332}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -211,11 +254,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
       Script: {instanceID: 0}
     Assets/Scenes/Medium_Scene.unity:
     - Class: 1
@@ -249,6 +296,8 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1588}
+    - Class: 114
       Script: {instanceID: 2490}
     - Class: 114
       Script: {instanceID: 2586}
@@ -257,17 +306,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2786}
     - Class: 114
-      Script: {instanceID: 5218}
+      Script: {instanceID: 3066}
     - Class: 114
-      Script: {instanceID: 5310}
+      Script: {instanceID: 3296}
     - Class: 114
-      Script: {instanceID: 5516}
+      Script: {instanceID: 4976}
     - Class: 114
-      Script: {instanceID: 5974}
+      Script: {instanceID: 5220}
     - Class: 114
-      Script: {instanceID: 7082}
+      Script: {instanceID: 5312}
     - Class: 114
-      Script: {instanceID: 7330}
+      Script: {instanceID: 5518}
+    - Class: 114
+      Script: {instanceID: 5666}
+    - Class: 114
+      Script: {instanceID: 5976}
+    - Class: 114
+      Script: {instanceID: 7084}
+    - Class: 114
+      Script: {instanceID: 7332}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -280,11 +337,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
       Script: {instanceID: 0}
     Assets/Scenes/Menu_Scene.unity:
     - Class: 1
@@ -338,23 +399,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3066}
     - Class: 114
-      Script: {instanceID: 4042}
+      Script: {instanceID: 4044}
     - Class: 114
-      Script: {instanceID: 4288}
+      Script: {instanceID: 4290}
     - Class: 114
-      Script: {instanceID: 4974}
+      Script: {instanceID: 4976}
     - Class: 114
-      Script: {instanceID: 5310}
+      Script: {instanceID: 5220}
     - Class: 114
-      Script: {instanceID: 5516}
+      Script: {instanceID: 5312}
     - Class: 114
-      Script: {instanceID: 5664}
+      Script: {instanceID: 5518}
     - Class: 114
-      Script: {instanceID: 5974}
+      Script: {instanceID: 5666}
     - Class: 114
-      Script: {instanceID: 6374}
+      Script: {instanceID: 5976}
     - Class: 114
-      Script: {instanceID: 7330}
+      Script: {instanceID: 6376}
+    - Class: 114
+      Script: {instanceID: 7084}
+    - Class: 114
+      Script: {instanceID: 7332}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -374,6 +439,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -646,6 +713,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 956c2a3108578620778d40040ce31425
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PauseScript
   - hash:
       serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
